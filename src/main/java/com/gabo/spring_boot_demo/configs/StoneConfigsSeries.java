@@ -16,9 +16,9 @@ import org.springframework.context.annotation.Scope;
 
 @Configuration
 @Slf4j
-@Profile("default")
+@Profile("series")
 @PropertySources({
-	@PropertySource("classpath:configs/stone.properties"),
+	@PropertySource("classpath:configs/stone-series.properties"),
 	@PropertySource("classpath:configs/mind_stone.properties"),
 	@PropertySource("classpath:configs/power_stone.properties"),
 	@PropertySource("classpath:configs/reality_stone.properties"),
@@ -26,7 +26,7 @@ import org.springframework.context.annotation.Scope;
 	@PropertySource("classpath:configs/space_stone.properties"),
 	@PropertySource("classpath:configs/time_stone.properties")
 })
-public class StoneConfigs {
+public class StoneConfigsSeries {
 
     @Value("${subtitles.url}") private String subtitlesURL;
     @Value("${spring.profiles.active:default}") private String profile;

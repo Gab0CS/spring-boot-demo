@@ -1,0 +1,741 @@
+2025-02-05T12:16:08.556-06:00  INFO 37497 --- [spring-boot-demo] [restartedMain] c.g.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication using Java 23.0.2 with PID 37497 (/Volumes/UGREEN/Developer/web/spring-boot-demo/target/classes started by gabo in /Volumes/UGREEN/Developer/web/spring-boot-demo)
+2025-02-05T12:16:08.556-06:00  INFO 37497 --- [spring-boot-demo] [restartedMain] c.g.s.SpringBootDemoApplication          : The following 1 profile is active: "movie"
+2025-02-05T12:16:08.580-06:00  INFO 37497 --- [spring-boot-demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-05T12:16:08.581-06:00  INFO 37497 --- [spring-boot-demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-05T12:16:08.907-06:00  INFO 37497 --- [spring-boot-demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-05T12:16:08.914-06:00  INFO 37497 --- [spring-boot-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-05T12:16:08.914-06:00  INFO 37497 --- [spring-boot-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-05T12:16:08.927-06:00  INFO 37497 --- [spring-boot-demo] [restartedMain] o.a.c.c.C.[.[localhost].[/movie-stones]  : Initializing Spring embedded WebApplicationContext
+2025-02-05T12:16:08.927-06:00  INFO 37497 --- [spring-boot-demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 346 ms
+2025-02-05T12:16:08.952-06:00  INFO 37497 --- [spring-boot-demo] [restartedMain] c.g.s.configs.StoneConfigs               : Loading subtitles : http://series.xyz, with profile: movie
+2025-02-05T12:16:09.058-06:00  INFO 37497 --- [spring-boot-demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-05T12:16:09.068-06:00  INFO 37497 --- [spring-boot-demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/movie-stones'
+2025-02-05T12:16:09.072-06:00  INFO 37497 --- [spring-boot-demo] [restartedMain] c.g.s.SpringBootDemoApplication          : Started SpringBootDemoApplication in 0.679 seconds (process running for 0.839)
+2025-02-05T12:17:00.998-06:00  INFO 37497 --- [spring-boot-demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-02-05T12:17:01.001-06:00  INFO 37497 --- [spring-boot-demo] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-05T12:17:01.009-06:00  INFO 37497 --- [spring-boot-demo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-05T12:17:01.037-06:00  INFO 37497 --- [spring-boot-demo] [restartedMain] c.g.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication using Java 23.0.2 with PID 37497 (/Volumes/UGREEN/Developer/web/spring-boot-demo/target/classes started by gabo in /Volumes/UGREEN/Developer/web/spring-boot-demo)
+2025-02-05T12:17:01.037-06:00  INFO 37497 --- [spring-boot-demo] [restartedMain] c.g.s.SpringBootDemoApplication          : The following 1 profile is active: "movie"
+2025-02-05T12:17:01.107-06:00  INFO 37497 --- [spring-boot-demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-05T12:17:01.108-06:00  INFO 37497 --- [spring-boot-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-05T12:17:01.108-06:00  INFO 37497 --- [spring-boot-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-05T12:17:01.111-06:00  INFO 37497 --- [spring-boot-demo] [restartedMain] o.a.c.c.C.[.[localhost].[/movie-stones]  : Initializing Spring embedded WebApplicationContext
+2025-02-05T12:17:01.111-06:00  INFO 37497 --- [spring-boot-demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 72 ms
+2025-02-05T12:17:01.118-06:00  INFO 37497 --- [spring-boot-demo] [restartedMain] c.g.s.configs.StoneConfigs               : Loading subtitles : http://defeult.xyz, with profile: movie
+2025-02-05T12:17:01.144-06:00  INFO 37497 --- [spring-boot-demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-05T12:17:01.147-06:00  INFO 37497 --- [spring-boot-demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/movie-stones'
+2025-02-05T12:17:01.149-06:00  INFO 37497 --- [spring-boot-demo] [restartedMain] c.g.s.SpringBootDemoApplication          : Started SpringBootDemoApplication in 0.123 seconds (process running for 52.916)
+2025-02-05T12:17:01.150-06:00  INFO 37497 --- [spring-boot-demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-02-05T12:18:01.148-06:00  INFO 37497 --- [spring-boot-demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2025-02-05T12:18:01.154-06:00  INFO 37497 --- [spring-boot-demo] [Thread-7] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-05T12:18:01.155-06:00  INFO 37497 --- [spring-boot-demo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-05T12:18:01.179-06:00  INFO 37497 --- [spring-boot-demo] [restartedMain] c.g.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication using Java 23.0.2 with PID 37497 (/Volumes/UGREEN/Developer/web/spring-boot-demo/target/classes started by gabo in /Volumes/UGREEN/Developer/web/spring-boot-demo)
+2025-02-05T12:18:01.179-06:00  INFO 37497 --- [spring-boot-demo] [restartedMain] c.g.s.SpringBootDemoApplication          : The following 1 profile is active: "movie"
+2025-02-05T12:18:01.210-06:00  WARN 37497 --- [spring-boot-demo] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'mind' defined in class path resource [com/gabo/spring_boot_demo/configs/StoneConfigsMovie.class]: Cannot register bean definition [Root bean: class=null; scope=prototype; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=stoneConfigsMovie; factoryMethodName=mindStone; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [com/gabo/spring_boot_demo/configs/StoneConfigsMovie.class]] for bean 'mind' since there is already [Root bean: class=null; scope=prototype; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=stoneConfigs; factoryMethodName=mindStone; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [com/gabo/spring_boot_demo/configs/StoneConfigs.class]] bound.
+2025-02-05T12:18:01.212-06:00  INFO 37497 --- [spring-boot-demo] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-02-05T12:18:01.219-06:00 ERROR 37497 --- [spring-boot-demo] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'mind', defined in class path resource [com/gabo/spring_boot_demo/configs/StoneConfigsMovie.class], could not be registered. A bean with that name has already been defined in class path resource [com/gabo/spring_boot_demo/configs/StoneConfigs.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2025-02-05T12:18:05.684-06:00  INFO 37497 --- [spring-boot-demo] [restartedMain] c.g.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication using Java 23.0.2 with PID 37497 (/Volumes/UGREEN/Developer/web/spring-boot-demo/target/classes started by gabo in /Volumes/UGREEN/Developer/web/spring-boot-demo)
+2025-02-05T12:18:05.684-06:00  INFO 37497 --- [spring-boot-demo] [restartedMain] c.g.s.SpringBootDemoApplication          : The following 1 profile is active: "movie"
+2025-02-05T12:18:05.727-06:00  WARN 37497 --- [spring-boot-demo] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'mind' defined in class path resource [com/gabo/spring_boot_demo/configs/StoneConfigsMovie.class]: Cannot register bean definition [Root bean: class=null; scope=prototype; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=stoneConfigsMovie; factoryMethodName=mindStone; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [com/gabo/spring_boot_demo/configs/StoneConfigsMovie.class]] for bean 'mind' since there is already [Root bean: class=null; scope=prototype; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=stoneConfigs; factoryMethodName=mindStone; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [com/gabo/spring_boot_demo/configs/StoneConfigs.class]] bound.
+2025-02-05T12:18:05.728-06:00  INFO 37497 --- [spring-boot-demo] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-02-05T12:18:05.729-06:00 ERROR 37497 --- [spring-boot-demo] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'mind', defined in class path resource [com/gabo/spring_boot_demo/configs/StoneConfigsMovie.class], could not be registered. A bean with that name has already been defined in class path resource [com/gabo/spring_boot_demo/configs/StoneConfigs.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2025-02-05T12:18:52.583-06:00  INFO 37497 --- [spring-boot-demo] [restartedMain] c.g.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication using Java 23.0.2 with PID 37497 (/Volumes/UGREEN/Developer/web/spring-boot-demo/target/classes started by gabo in /Volumes/UGREEN/Developer/web/spring-boot-demo)
+2025-02-05T12:18:52.583-06:00  INFO 37497 --- [spring-boot-demo] [restartedMain] c.g.s.SpringBootDemoApplication          : The following 1 profile is active: "movie"
+2025-02-05T12:18:52.622-06:00  WARN 37497 --- [spring-boot-demo] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'mind' defined in class path resource [com/gabo/spring_boot_demo/configs/StoneConfigsMovie.class]: Cannot register bean definition [Root bean: class=null; scope=prototype; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=stoneConfigsMovie; factoryMethodName=mindStone; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [com/gabo/spring_boot_demo/configs/StoneConfigsMovie.class]] for bean 'mind' since there is already [Root bean: class=null; scope=prototype; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=stoneConfigs; factoryMethodName=mindStone; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [com/gabo/spring_boot_demo/configs/StoneConfigs.class]] bound.
+2025-02-05T12:18:52.623-06:00  INFO 37497 --- [spring-boot-demo] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-02-05T12:18:52.624-06:00 ERROR 37497 --- [spring-boot-demo] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'mind', defined in class path resource [com/gabo/spring_boot_demo/configs/StoneConfigsMovie.class], could not be registered. A bean with that name has already been defined in class path resource [com/gabo/spring_boot_demo/configs/StoneConfigs.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2025-02-05T12:18:58.110-06:00  INFO 37497 --- [spring-boot-demo] [restartedMain] c.g.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication using Java 23.0.2 with PID 37497 (/Volumes/UGREEN/Developer/web/spring-boot-demo/target/classes started by gabo in /Volumes/UGREEN/Developer/web/spring-boot-demo)
+2025-02-05T12:18:58.110-06:00  INFO 37497 --- [spring-boot-demo] [restartedMain] c.g.s.SpringBootDemoApplication          : The following 1 profile is active: "movie"
+2025-02-05T12:18:58.175-06:00  WARN 37497 --- [spring-boot-demo] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'mind' defined in class path resource [com/gabo/spring_boot_demo/configs/StoneConfigsMovie.class]: Cannot register bean definition [Root bean: class=null; scope=prototype; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=stoneConfigsMovie; factoryMethodName=mindStone; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [com/gabo/spring_boot_demo/configs/StoneConfigsMovie.class]] for bean 'mind' since there is already [Root bean: class=null; scope=prototype; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=stoneConfigs; factoryMethodName=mindStone; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [com/gabo/spring_boot_demo/configs/StoneConfigs.class]] bound.
+2025-02-05T12:18:58.176-06:00  INFO 37497 --- [spring-boot-demo] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-02-05T12:18:58.177-06:00 ERROR 37497 --- [spring-boot-demo] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'mind', defined in class path resource [com/gabo/spring_boot_demo/configs/StoneConfigsMovie.class], could not be registered. A bean with that name has already been defined in class path resource [com/gabo/spring_boot_demo/configs/StoneConfigs.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2025-02-05T12:19:03.643-06:00  INFO 37497 --- [spring-boot-demo] [restartedMain] c.g.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication using Java 23.0.2 with PID 37497 (/Volumes/UGREEN/Developer/web/spring-boot-demo/target/classes started by gabo in /Volumes/UGREEN/Developer/web/spring-boot-demo)
+2025-02-05T12:19:03.647-06:00  INFO 37497 --- [spring-boot-demo] [restartedMain] c.g.s.SpringBootDemoApplication          : The following 1 profile is active: "movie"
+2025-02-05T12:19:03.676-06:00  WARN 37497 --- [spring-boot-demo] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'mind' defined in class path resource [com/gabo/spring_boot_demo/configs/StoneConfigsMovie.class]: Cannot register bean definition [Root bean: class=null; scope=prototype; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=stoneConfigsMovie; factoryMethodName=mindStone; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [com/gabo/spring_boot_demo/configs/StoneConfigsMovie.class]] for bean 'mind' since there is already [Root bean: class=null; scope=prototype; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=stoneConfigs; factoryMethodName=mindStone; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [com/gabo/spring_boot_demo/configs/StoneConfigs.class]] bound.
+2025-02-05T12:19:03.677-06:00  INFO 37497 --- [spring-boot-demo] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-02-05T12:19:03.678-06:00 ERROR 37497 --- [spring-boot-demo] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'mind', defined in class path resource [com/gabo/spring_boot_demo/configs/StoneConfigsMovie.class], could not be registered. A bean with that name has already been defined in class path resource [com/gabo/spring_boot_demo/configs/StoneConfigs.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2025-02-05T12:19:06.519-06:00  INFO 37497 --- [spring-boot-demo] [restartedMain] c.g.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication using Java 23.0.2 with PID 37497 (/Volumes/UGREEN/Developer/web/spring-boot-demo/target/classes started by gabo in /Volumes/UGREEN/Developer/web/spring-boot-demo)
+2025-02-05T12:19:06.519-06:00  INFO 37497 --- [spring-boot-demo] [restartedMain] c.g.s.SpringBootDemoApplication          : The following 1 profile is active: "movie"
+2025-02-05T12:19:06.552-06:00  WARN 37497 --- [spring-boot-demo] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'mind' defined in class path resource [com/gabo/spring_boot_demo/configs/StoneConfigsMovie.class]: Cannot register bean definition [Root bean: class=null; scope=prototype; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=stoneConfigsMovie; factoryMethodName=mindStone; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [com/gabo/spring_boot_demo/configs/StoneConfigsMovie.class]] for bean 'mind' since there is already [Root bean: class=null; scope=prototype; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=stoneConfigs; factoryMethodName=mindStone; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [com/gabo/spring_boot_demo/configs/StoneConfigs.class]] bound.
+2025-02-05T12:19:06.553-06:00  INFO 37497 --- [spring-boot-demo] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-02-05T12:19:06.554-06:00 ERROR 37497 --- [spring-boot-demo] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'mind', defined in class path resource [com/gabo/spring_boot_demo/configs/StoneConfigsMovie.class], could not be registered. A bean with that name has already been defined in class path resource [com/gabo/spring_boot_demo/configs/StoneConfigs.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2025-02-05T12:19:10.001-06:00  INFO 37497 --- [spring-boot-demo] [restartedMain] c.g.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication using Java 23.0.2 with PID 37497 (/Volumes/UGREEN/Developer/web/spring-boot-demo/target/classes started by gabo in /Volumes/UGREEN/Developer/web/spring-boot-demo)
+2025-02-05T12:19:10.001-06:00  INFO 37497 --- [spring-boot-demo] [restartedMain] c.g.s.SpringBootDemoApplication          : The following 1 profile is active: "movie"
+2025-02-05T12:19:10.005-06:00  WARN 37497 --- [spring-boot-demo] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to read candidate component class: file [/Volumes/UGREEN/Developer/web/spring-boot-demo/target/classes/com/gabo/spring_boot_demo/configs/StoneConfigsSeries.class]
+2025-02-05T12:19:10.007-06:00 ERROR 37497 --- [spring-boot-demo] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to read candidate component class: file [/Volumes/UGREEN/Developer/web/spring-boot-demo/target/classes/com/gabo/spring_boot_demo/configs/StoneConfigsSeries.class]
+	at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:510) ~[spring-context-6.2.2.jar:6.2.2]
+	at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.findCandidateComponents(ClassPathScanningCandidateComponentProvider.java:351) ~[spring-context-6.2.2.jar:6.2.2]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:277) ~[spring-context-6.2.2.jar:6.2.2]
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:128) ~[spring-context-6.2.2.jar:6.2.2]
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:332) ~[spring-context-6.2.2.jar:6.2.2]
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:267) ~[spring-context-6.2.2.jar:6.2.2]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:193) ~[spring-context-6.2.2.jar:6.2.2]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:171) ~[spring-context-6.2.2.jar:6.2.2]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:418) ~[spring-context-6.2.2.jar:6.2.2]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:290) ~[spring-context-6.2.2.jar:6.2.2]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349) ~[spring-context-6.2.2.jar:6.2.2]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118) ~[spring-context-6.2.2.jar:6.2.2]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:791) ~[spring-context-6.2.2.jar:6.2.2]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:609) ~[spring-context-6.2.2.jar:6.2.2]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.4.2.jar:3.4.2]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.4.2.jar:3.4.2]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.4.2.jar:3.4.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.4.2.jar:3.4.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.4.2.jar:3.4.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.4.2.jar:3.4.2]
+	at com.gabo.spring_boot_demo.SpringBootDemoApplication.main(SpringBootDemoApplication.java:47) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.4.2.jar:3.4.2]
+Caused by: java.lang.IllegalArgumentException: Invalid profile expression []: must contain text
+	at org.springframework.util.Assert.hasText(Assert.java:274) ~[spring-core-6.2.2.jar:6.2.2]
+	at org.springframework.core.env.ProfilesParser.parseExpression(ProfilesParser.java:55) ~[spring-core-6.2.2.jar:6.2.2]
+	at org.springframework.core.env.ProfilesParser.parse(ProfilesParser.java:49) ~[spring-core-6.2.2.jar:6.2.2]
+	at org.springframework.core.env.Profiles.of(Profiles.java:72) ~[spring-core-6.2.2.jar:6.2.2]
+	at org.springframework.core.env.Environment.matchesProfiles(Environment.java:114) ~[spring-core-6.2.2.jar:6.2.2]
+	at org.springframework.context.annotation.ProfileCondition.matches(ProfileCondition.java:39) ~[spring-context-6.2.2.jar:6.2.2]
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:99) ~[spring-context-6.2.2.jar:6.2.2]
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:88) ~[spring-context-6.2.2.jar:6.2.2]
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:71) ~[spring-context-6.2.2.jar:6.2.2]
+	at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.isConditionMatch(ClassPathScanningCandidateComponentProvider.java:564) ~[spring-context-6.2.2.jar:6.2.2]
+	at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.isCandidateComponent(ClassPathScanningCandidateComponentProvider.java:547) ~[spring-context-6.2.2.jar:6.2.2]
+	at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:471) ~[spring-context-6.2.2.jar:6.2.2]
+	... 23 common frames omitted
+
+2025-02-05T12:19:11.454-06:00  INFO 37497 --- [spring-boot-demo] [restartedMain] c.g.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication using Java 23.0.2 with PID 37497 (/Volumes/UGREEN/Developer/web/spring-boot-demo/target/classes started by gabo in /Volumes/UGREEN/Developer/web/spring-boot-demo)
+2025-02-05T12:19:11.454-06:00  INFO 37497 --- [spring-boot-demo] [restartedMain] c.g.s.SpringBootDemoApplication          : The following 1 profile is active: "movie"
+2025-02-05T12:19:11.460-06:00  WARN 37497 --- [spring-boot-demo] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to read candidate component class: file [/Volumes/UGREEN/Developer/web/spring-boot-demo/target/classes/com/gabo/spring_boot_demo/configs/StoneConfigsSeries.class]
+2025-02-05T12:19:11.462-06:00 ERROR 37497 --- [spring-boot-demo] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to read candidate component class: file [/Volumes/UGREEN/Developer/web/spring-boot-demo/target/classes/com/gabo/spring_boot_demo/configs/StoneConfigsSeries.class]
+	at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:510) ~[spring-context-6.2.2.jar:6.2.2]
+	at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.findCandidateComponents(ClassPathScanningCandidateComponentProvider.java:351) ~[spring-context-6.2.2.jar:6.2.2]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:277) ~[spring-context-6.2.2.jar:6.2.2]
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:128) ~[spring-context-6.2.2.jar:6.2.2]
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:332) ~[spring-context-6.2.2.jar:6.2.2]
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:267) ~[spring-context-6.2.2.jar:6.2.2]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:193) ~[spring-context-6.2.2.jar:6.2.2]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:171) ~[spring-context-6.2.2.jar:6.2.2]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:418) ~[spring-context-6.2.2.jar:6.2.2]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:290) ~[spring-context-6.2.2.jar:6.2.2]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349) ~[spring-context-6.2.2.jar:6.2.2]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118) ~[spring-context-6.2.2.jar:6.2.2]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:791) ~[spring-context-6.2.2.jar:6.2.2]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:609) ~[spring-context-6.2.2.jar:6.2.2]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.4.2.jar:3.4.2]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.4.2.jar:3.4.2]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.4.2.jar:3.4.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.4.2.jar:3.4.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.4.2.jar:3.4.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.4.2.jar:3.4.2]
+	at com.gabo.spring_boot_demo.SpringBootDemoApplication.main(SpringBootDemoApplication.java:47) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.4.2.jar:3.4.2]
+Caused by: java.lang.IllegalArgumentException: Invalid profile expression []: must contain text
+	at org.springframework.util.Assert.hasText(Assert.java:274) ~[spring-core-6.2.2.jar:6.2.2]
+	at org.springframework.core.env.ProfilesParser.parseExpression(ProfilesParser.java:55) ~[spring-core-6.2.2.jar:6.2.2]
+	at org.springframework.core.env.ProfilesParser.parse(ProfilesParser.java:49) ~[spring-core-6.2.2.jar:6.2.2]
+	at org.springframework.core.env.Profiles.of(Profiles.java:72) ~[spring-core-6.2.2.jar:6.2.2]
+	at org.springframework.core.env.Environment.matchesProfiles(Environment.java:114) ~[spring-core-6.2.2.jar:6.2.2]
+	at org.springframework.context.annotation.ProfileCondition.matches(ProfileCondition.java:39) ~[spring-context-6.2.2.jar:6.2.2]
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:99) ~[spring-context-6.2.2.jar:6.2.2]
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:88) ~[spring-context-6.2.2.jar:6.2.2]
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:71) ~[spring-context-6.2.2.jar:6.2.2]
+	at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.isConditionMatch(ClassPathScanningCandidateComponentProvider.java:564) ~[spring-context-6.2.2.jar:6.2.2]
+	at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.isCandidateComponent(ClassPathScanningCandidateComponentProvider.java:547) ~[spring-context-6.2.2.jar:6.2.2]
+	at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:471) ~[spring-context-6.2.2.jar:6.2.2]
+	... 23 common frames omitted
+
+2025-02-05T12:19:14.902-06:00  INFO 37497 --- [spring-boot-demo] [restartedMain] c.g.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication using Java 23.0.2 with PID 37497 (/Volumes/UGREEN/Developer/web/spring-boot-demo/target/classes started by gabo in /Volumes/UGREEN/Developer/web/spring-boot-demo)
+2025-02-05T12:19:14.904-06:00  INFO 37497 --- [spring-boot-demo] [restartedMain] c.g.s.SpringBootDemoApplication          : The following 1 profile is active: "movie"
+2025-02-05T12:19:14.937-06:00  WARN 37497 --- [spring-boot-demo] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'mind' defined in class path resource [com/gabo/spring_boot_demo/configs/StoneConfigsMovie.class]: Cannot register bean definition [Root bean: class=null; scope=prototype; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=stoneConfigsMovie; factoryMethodName=mindStone; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [com/gabo/spring_boot_demo/configs/StoneConfigsMovie.class]] for bean 'mind' since there is already [Root bean: class=null; scope=prototype; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=stoneConfigs; factoryMethodName=mindStone; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [com/gabo/spring_boot_demo/configs/StoneConfigs.class]] bound.
+2025-02-05T12:19:14.939-06:00  INFO 37497 --- [spring-boot-demo] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-02-05T12:19:14.939-06:00 ERROR 37497 --- [spring-boot-demo] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'mind', defined in class path resource [com/gabo/spring_boot_demo/configs/StoneConfigsMovie.class], could not be registered. A bean with that name has already been defined in class path resource [com/gabo/spring_boot_demo/configs/StoneConfigs.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2025-02-05T12:19:16.372-06:00  INFO 37497 --- [spring-boot-demo] [restartedMain] c.g.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication using Java 23.0.2 with PID 37497 (/Volumes/UGREEN/Developer/web/spring-boot-demo/target/classes started by gabo in /Volumes/UGREEN/Developer/web/spring-boot-demo)
+2025-02-05T12:19:16.372-06:00  INFO 37497 --- [spring-boot-demo] [restartedMain] c.g.s.SpringBootDemoApplication          : The following 1 profile is active: "movie"
+2025-02-05T12:19:16.406-06:00  WARN 37497 --- [spring-boot-demo] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'mind' defined in class path resource [com/gabo/spring_boot_demo/configs/StoneConfigsMovie.class]: Cannot register bean definition [Root bean: class=null; scope=prototype; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=stoneConfigsMovie; factoryMethodName=mindStone; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [com/gabo/spring_boot_demo/configs/StoneConfigsMovie.class]] for bean 'mind' since there is already [Root bean: class=null; scope=prototype; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=stoneConfigs; factoryMethodName=mindStone; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [com/gabo/spring_boot_demo/configs/StoneConfigs.class]] bound.
+2025-02-05T12:19:16.407-06:00  INFO 37497 --- [spring-boot-demo] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-02-05T12:19:16.408-06:00 ERROR 37497 --- [spring-boot-demo] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'mind', defined in class path resource [com/gabo/spring_boot_demo/configs/StoneConfigsMovie.class], could not be registered. A bean with that name has already been defined in class path resource [com/gabo/spring_boot_demo/configs/StoneConfigs.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2025-02-05T12:19:19.851-06:00  INFO 37497 --- [spring-boot-demo] [restartedMain] c.g.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication using Java 23.0.2 with PID 37497 (/Volumes/UGREEN/Developer/web/spring-boot-demo/target/classes started by gabo in /Volumes/UGREEN/Developer/web/spring-boot-demo)
+2025-02-05T12:19:19.856-06:00  INFO 37497 --- [spring-boot-demo] [restartedMain] c.g.s.SpringBootDemoApplication          : The following 1 profile is active: "movie"
+2025-02-05T12:19:19.882-06:00  WARN 37497 --- [spring-boot-demo] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'mind' defined in class path resource [com/gabo/spring_boot_demo/configs/StoneConfigsMovie.class]: Cannot register bean definition [Root bean: class=null; scope=prototype; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=stoneConfigsMovie; factoryMethodName=mindStone; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [com/gabo/spring_boot_demo/configs/StoneConfigsMovie.class]] for bean 'mind' since there is already [Root bean: class=null; scope=prototype; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=stoneConfigs; factoryMethodName=mindStone; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [com/gabo/spring_boot_demo/configs/StoneConfigs.class]] bound.
+2025-02-05T12:19:19.883-06:00  INFO 37497 --- [spring-boot-demo] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-02-05T12:19:19.883-06:00 ERROR 37497 --- [spring-boot-demo] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'mind', defined in class path resource [com/gabo/spring_boot_demo/configs/StoneConfigsMovie.class], could not be registered. A bean with that name has already been defined in class path resource [com/gabo/spring_boot_demo/configs/StoneConfigs.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2025-02-05T12:19:23.741-06:00  INFO 37497 --- [spring-boot-demo] [restartedMain] c.g.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication using Java 23.0.2 with PID 37497 (/Volumes/UGREEN/Developer/web/spring-boot-demo/target/classes started by gabo in /Volumes/UGREEN/Developer/web/spring-boot-demo)
+2025-02-05T12:19:23.741-06:00  INFO 37497 --- [spring-boot-demo] [restartedMain] c.g.s.SpringBootDemoApplication          : The following 1 profile is active: "movie"
+2025-02-05T12:19:23.774-06:00  WARN 37497 --- [spring-boot-demo] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'mind' defined in class path resource [com/gabo/spring_boot_demo/configs/StoneConfigsMovie.class]: Cannot register bean definition [Root bean: class=null; scope=prototype; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=stoneConfigsMovie; factoryMethodName=mindStone; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [com/gabo/spring_boot_demo/configs/StoneConfigsMovie.class]] for bean 'mind' since there is already [Root bean: class=null; scope=prototype; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=stoneConfigs; factoryMethodName=mindStone; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [com/gabo/spring_boot_demo/configs/StoneConfigs.class]] bound.
+2025-02-05T12:19:23.775-06:00  INFO 37497 --- [spring-boot-demo] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-02-05T12:19:23.776-06:00 ERROR 37497 --- [spring-boot-demo] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'mind', defined in class path resource [com/gabo/spring_boot_demo/configs/StoneConfigsMovie.class], could not be registered. A bean with that name has already been defined in class path resource [com/gabo/spring_boot_demo/configs/StoneConfigs.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2025-02-05T12:19:25.210-06:00  INFO 37497 --- [spring-boot-demo] [restartedMain] c.g.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication using Java 23.0.2 with PID 37497 (/Volumes/UGREEN/Developer/web/spring-boot-demo/target/classes started by gabo in /Volumes/UGREEN/Developer/web/spring-boot-demo)
+2025-02-05T12:19:25.210-06:00  INFO 37497 --- [spring-boot-demo] [restartedMain] c.g.s.SpringBootDemoApplication          : The following 1 profile is active: "movie"
+2025-02-05T12:19:25.240-06:00  WARN 37497 --- [spring-boot-demo] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'mind' defined in class path resource [com/gabo/spring_boot_demo/configs/StoneConfigsMovie.class]: Cannot register bean definition [Root bean: class=null; scope=prototype; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=stoneConfigsMovie; factoryMethodName=mindStone; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [com/gabo/spring_boot_demo/configs/StoneConfigsMovie.class]] for bean 'mind' since there is already [Root bean: class=null; scope=prototype; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=stoneConfigs; factoryMethodName=mindStone; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [com/gabo/spring_boot_demo/configs/StoneConfigs.class]] bound.
+2025-02-05T12:19:25.241-06:00  INFO 37497 --- [spring-boot-demo] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-02-05T12:19:25.242-06:00 ERROR 37497 --- [spring-boot-demo] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'mind', defined in class path resource [com/gabo/spring_boot_demo/configs/StoneConfigsMovie.class], could not be registered. A bean with that name has already been defined in class path resource [com/gabo/spring_boot_demo/configs/StoneConfigs.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2025-02-05T12:19:29.708-06:00  INFO 37497 --- [spring-boot-demo] [restartedMain] c.g.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication using Java 23.0.2 with PID 37497 (/Volumes/UGREEN/Developer/web/spring-boot-demo/target/classes started by gabo in /Volumes/UGREEN/Developer/web/spring-boot-demo)
+2025-02-05T12:19:29.709-06:00  INFO 37497 --- [spring-boot-demo] [restartedMain] c.g.s.SpringBootDemoApplication          : The following 1 profile is active: "movie"
+2025-02-05T12:19:29.745-06:00  WARN 37497 --- [spring-boot-demo] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'mind' defined in class path resource [com/gabo/spring_boot_demo/configs/StoneConfigsMovie.class]: Cannot register bean definition [Root bean: class=null; scope=prototype; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=stoneConfigsMovie; factoryMethodName=mindStone; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [com/gabo/spring_boot_demo/configs/StoneConfigsMovie.class]] for bean 'mind' since there is already [Root bean: class=null; scope=prototype; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=stoneConfigs; factoryMethodName=mindStone; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [com/gabo/spring_boot_demo/configs/StoneConfigs.class]] bound.
+2025-02-05T12:19:29.747-06:00  INFO 37497 --- [spring-boot-demo] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-02-05T12:19:29.747-06:00 ERROR 37497 --- [spring-boot-demo] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'mind', defined in class path resource [com/gabo/spring_boot_demo/configs/StoneConfigsMovie.class], could not be registered. A bean with that name has already been defined in class path resource [com/gabo/spring_boot_demo/configs/StoneConfigs.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2025-02-05T12:19:38.259-06:00  INFO 37497 --- [spring-boot-demo] [restartedMain] c.g.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication using Java 23.0.2 with PID 37497 (/Volumes/UGREEN/Developer/web/spring-boot-demo/target/classes started by gabo in /Volumes/UGREEN/Developer/web/spring-boot-demo)
+2025-02-05T12:19:38.259-06:00  INFO 37497 --- [spring-boot-demo] [restartedMain] c.g.s.SpringBootDemoApplication          : The following 1 profile is active: "movie"
+2025-02-05T12:19:38.298-06:00  WARN 37497 --- [spring-boot-demo] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'mind' defined in class path resource [com/gabo/spring_boot_demo/configs/StoneConfigsMovie.class]: Cannot register bean definition [Root bean: class=null; scope=prototype; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=stoneConfigsMovie; factoryMethodName=mindStone; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [com/gabo/spring_boot_demo/configs/StoneConfigsMovie.class]] for bean 'mind' since there is already [Root bean: class=null; scope=prototype; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=stoneConfigs; factoryMethodName=mindStone; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [com/gabo/spring_boot_demo/configs/StoneConfigs.class]] bound.
+2025-02-05T12:19:38.299-06:00  INFO 37497 --- [spring-boot-demo] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-02-05T12:19:38.300-06:00 ERROR 37497 --- [spring-boot-demo] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'mind', defined in class path resource [com/gabo/spring_boot_demo/configs/StoneConfigsMovie.class], could not be registered. A bean with that name has already been defined in class path resource [com/gabo/spring_boot_demo/configs/StoneConfigs.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2025-02-05T12:19:42.772-06:00  INFO 37497 --- [spring-boot-demo] [restartedMain] c.g.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication using Java 23.0.2 with PID 37497 (/Volumes/UGREEN/Developer/web/spring-boot-demo/target/classes started by gabo in /Volumes/UGREEN/Developer/web/spring-boot-demo)
+2025-02-05T12:19:42.773-06:00  INFO 37497 --- [spring-boot-demo] [restartedMain] c.g.s.SpringBootDemoApplication          : The following 1 profile is active: "movie"
+2025-02-05T12:19:42.811-06:00  WARN 37497 --- [spring-boot-demo] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'mind' defined in class path resource [com/gabo/spring_boot_demo/configs/StoneConfigsMovie.class]: Cannot register bean definition [Root bean: class=null; scope=prototype; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=stoneConfigsMovie; factoryMethodName=mindStone; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [com/gabo/spring_boot_demo/configs/StoneConfigsMovie.class]] for bean 'mind' since there is already [Root bean: class=null; scope=prototype; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=stoneConfigs; factoryMethodName=mindStone; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [com/gabo/spring_boot_demo/configs/StoneConfigs.class]] bound.
+2025-02-05T12:19:42.812-06:00  INFO 37497 --- [spring-boot-demo] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-02-05T12:19:42.812-06:00 ERROR 37497 --- [spring-boot-demo] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'mind', defined in class path resource [com/gabo/spring_boot_demo/configs/StoneConfigsMovie.class], could not be registered. A bean with that name has already been defined in class path resource [com/gabo/spring_boot_demo/configs/StoneConfigs.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2025-02-05T12:20:32.105-06:00  INFO 38730 --- [spring-boot-demo] [restartedMain] c.g.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication using Java 23.0.2 with PID 38730 (/Volumes/UGREEN/Developer/web/spring-boot-demo/target/classes started by gabo in /Volumes/UGREEN/Developer/web/spring-boot-demo)
+2025-02-05T12:20:32.106-06:00  INFO 38730 --- [spring-boot-demo] [restartedMain] c.g.s.SpringBootDemoApplication          : The following 1 profile is active: "movie"
+2025-02-05T12:20:32.130-06:00  INFO 38730 --- [spring-boot-demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-05T12:20:32.130-06:00  INFO 38730 --- [spring-boot-demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-05T12:20:32.251-06:00  WARN 38730 --- [spring-boot-demo] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'mind' defined in class path resource [com/gabo/spring_boot_demo/configs/StoneConfigsMovie.class]: Cannot register bean definition [Root bean: class=null; scope=prototype; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=stoneConfigsMovie; factoryMethodName=mindStone; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [com/gabo/spring_boot_demo/configs/StoneConfigsMovie.class]] for bean 'mind' since there is already [Root bean: class=null; scope=prototype; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=stoneConfigs; factoryMethodName=mindStone; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [com/gabo/spring_boot_demo/configs/StoneConfigs.class]] bound.
+2025-02-05T12:20:32.255-06:00  INFO 38730 --- [spring-boot-demo] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-02-05T12:20:32.262-06:00 ERROR 38730 --- [spring-boot-demo] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'mind', defined in class path resource [com/gabo/spring_boot_demo/configs/StoneConfigsMovie.class], could not be registered. A bean with that name has already been defined in class path resource [com/gabo/spring_boot_demo/configs/StoneConfigs.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2025-02-05T12:21:41.764-06:00  INFO 39049 --- [spring-boot-demo] [restartedMain] c.g.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication using Java 23.0.2 with PID 39049 (/Volumes/UGREEN/Developer/web/spring-boot-demo/target/classes started by gabo in /Volumes/UGREEN/Developer/web/spring-boot-demo)
+2025-02-05T12:21:41.765-06:00  INFO 39049 --- [spring-boot-demo] [restartedMain] c.g.s.SpringBootDemoApplication          : The following 1 profile is active: "movie"
+2025-02-05T12:21:41.788-06:00  INFO 39049 --- [spring-boot-demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-05T12:21:41.788-06:00  INFO 39049 --- [spring-boot-demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-05T12:21:42.096-06:00  INFO 39049 --- [spring-boot-demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-05T12:21:42.102-06:00  INFO 39049 --- [spring-boot-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-05T12:21:42.102-06:00  INFO 39049 --- [spring-boot-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-05T12:21:42.115-06:00  INFO 39049 --- [spring-boot-demo] [restartedMain] o.a.c.c.C.[.[localhost].[/movie-stones]  : Initializing Spring embedded WebApplicationContext
+2025-02-05T12:21:42.115-06:00  INFO 39049 --- [spring-boot-demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 327 ms
+2025-02-05T12:21:42.140-06:00  INFO 39049 --- [spring-boot-demo] [restartedMain] c.g.s.configs.StoneConfigsMovie          : Loading subtitles : http://movie.xyz, with profile: movie
+2025-02-05T12:21:42.242-06:00  INFO 39049 --- [spring-boot-demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-05T12:21:42.252-06:00  INFO 39049 --- [spring-boot-demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/movie-stones'
+2025-02-05T12:21:42.255-06:00  INFO 39049 --- [spring-boot-demo] [restartedMain] c.g.s.SpringBootDemoApplication          : Started SpringBootDemoApplication in 0.635 seconds (process running for 0.768)
+2025-02-05T12:21:57.443-06:00  INFO 39049 --- [spring-boot-demo] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-05T12:21:57.459-06:00  INFO 39049 --- [spring-boot-demo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-05T12:43:07.738-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] c.g.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication using Java 23.0.2 with PID 44210 (/Volumes/UGREEN/Developer/web/spring-boot-demo/target/classes started by gabo in /Volumes/UGREEN/Developer/web/spring-boot-demo)
+2025-02-05T12:43:07.741-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] c.g.s.SpringBootDemoApplication          : The following 1 profile is active: "movie"
+2025-02-05T12:43:07.764-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-05T12:43:07.764-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-05T12:43:08.081-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-05T12:43:08.087-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-05T12:43:08.087-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-05T12:43:08.099-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] o.a.c.c.C.[.[localhost].[/movie-stones]  : Initializing Spring embedded WebApplicationContext
+2025-02-05T12:43:08.099-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 334 ms
+2025-02-05T12:43:08.124-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] c.g.s.configs.StoneConfigsMovie          : Loading subtitles : http://movie.xyz, with profile: movie
+2025-02-05T12:43:08.225-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-05T12:43:08.235-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/movie-stones'
+2025-02-05T12:43:08.238-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] c.g.s.SpringBootDemoApplication          : Started SpringBootDemoApplication in 0.645 seconds (process running for 0.79)
+2025-02-05T12:43:08.239-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] c.g.s.services.GaunletServiceImpl        : Using all power
+2025-02-05T12:43:39.947-06:00  INFO 44210 --- [spring-boot-demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-02-05T12:43:39.950-06:00  INFO 44210 --- [spring-boot-demo] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-05T12:43:39.955-06:00  INFO 44210 --- [spring-boot-demo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-05T12:43:39.983-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] c.g.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication using Java 23.0.2 with PID 44210 (/Volumes/UGREEN/Developer/web/spring-boot-demo/target/classes started by gabo in /Volumes/UGREEN/Developer/web/spring-boot-demo)
+2025-02-05T12:43:39.983-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] c.g.s.SpringBootDemoApplication          : The following 1 profile is active: "movie"
+2025-02-05T12:43:40.056-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-05T12:43:40.056-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-05T12:43:40.056-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-05T12:43:40.060-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] o.a.c.c.C.[.[localhost].[/movie-stones]  : Initializing Spring embedded WebApplicationContext
+2025-02-05T12:43:40.061-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 77 ms
+2025-02-05T12:43:40.067-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] c.g.s.configs.StoneConfigsMovie          : Loading subtitles : http://movie.xyz, with profile: movie
+2025-02-05T12:43:40.091-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-05T12:43:40.094-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/movie-stones'
+2025-02-05T12:43:40.096-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] c.g.s.SpringBootDemoApplication          : Started SpringBootDemoApplication in 0.124 seconds (process running for 32.647)
+2025-02-05T12:43:40.096-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] c.g.s.services.GaunletServiceImpl        : Using all power
+2025-02-05T12:43:40.097-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-02-05T12:43:41.508-06:00  INFO 44210 --- [spring-boot-demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-02-05T12:43:41.509-06:00  INFO 44210 --- [spring-boot-demo] [Thread-7] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-05T12:43:41.511-06:00  INFO 44210 --- [spring-boot-demo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-05T12:43:41.541-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] c.g.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication using Java 23.0.2 with PID 44210 (/Volumes/UGREEN/Developer/web/spring-boot-demo/target/classes started by gabo in /Volumes/UGREEN/Developer/web/spring-boot-demo)
+2025-02-05T12:43:41.541-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] c.g.s.SpringBootDemoApplication          : The following 1 profile is active: "movie"
+2025-02-05T12:43:41.599-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-05T12:43:41.600-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-05T12:43:41.600-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-05T12:43:41.603-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] o.a.c.c.C.[.[localhost].[/movie-stones]  : Initializing Spring embedded WebApplicationContext
+2025-02-05T12:43:41.603-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 61 ms
+2025-02-05T12:43:41.609-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] c.g.s.configs.StoneConfigsMovie          : Loading subtitles : http://movie.xyz, with profile: movie
+2025-02-05T12:43:41.630-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-05T12:43:41.633-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/movie-stones'
+2025-02-05T12:43:41.634-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] c.g.s.SpringBootDemoApplication          : Started SpringBootDemoApplication in 0.104 seconds (process running for 34.185)
+2025-02-05T12:43:41.635-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] c.g.s.services.GaunletServiceImpl        : Using all power
+2025-02-05T12:43:41.635-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-02-05T12:43:46.075-06:00  INFO 44210 --- [spring-boot-demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-02-05T12:43:46.077-06:00  INFO 44210 --- [spring-boot-demo] [Thread-11] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-05T12:43:46.078-06:00  INFO 44210 --- [spring-boot-demo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-05T12:43:46.115-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] c.g.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication using Java 23.0.2 with PID 44210 (/Volumes/UGREEN/Developer/web/spring-boot-demo/target/classes started by gabo in /Volumes/UGREEN/Developer/web/spring-boot-demo)
+2025-02-05T12:43:46.115-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] c.g.s.SpringBootDemoApplication          : The following 1 profile is active: "movie"
+2025-02-05T12:43:46.171-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-05T12:43:46.172-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-05T12:43:46.172-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-05T12:43:46.175-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] o.a.c.c.C.[.[localhost].[/movie-stones]  : Initializing Spring embedded WebApplicationContext
+2025-02-05T12:43:46.175-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 59 ms
+2025-02-05T12:43:46.181-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] c.g.s.configs.StoneConfigsMovie          : Loading subtitles : http://movie.xyz, with profile: movie
+2025-02-05T12:43:46.201-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-05T12:43:46.204-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/movie-stones'
+2025-02-05T12:43:46.205-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] c.g.s.SpringBootDemoApplication          : Started SpringBootDemoApplication in 0.107 seconds (process running for 38.756)
+2025-02-05T12:43:46.205-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] c.g.s.services.GaunletServiceImpl        : Using all power
+2025-02-05T12:43:46.206-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-02-05T12:43:47.615-06:00  INFO 44210 --- [spring-boot-demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-02-05T12:43:47.616-06:00  INFO 44210 --- [spring-boot-demo] [Thread-15] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-05T12:43:47.617-06:00  INFO 44210 --- [spring-boot-demo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-05T12:43:47.646-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] c.g.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication using Java 23.0.2 with PID 44210 (/Volumes/UGREEN/Developer/web/spring-boot-demo/target/classes started by gabo in /Volumes/UGREEN/Developer/web/spring-boot-demo)
+2025-02-05T12:43:47.648-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] c.g.s.SpringBootDemoApplication          : The following 1 profile is active: "movie"
+2025-02-05T12:43:47.704-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-05T12:43:47.705-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-05T12:43:47.705-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-05T12:43:47.707-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] o.a.c.c.C.[.[localhost].[/movie-stones]  : Initializing Spring embedded WebApplicationContext
+2025-02-05T12:43:47.707-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 59 ms
+2025-02-05T12:43:47.714-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] c.g.s.configs.StoneConfigsMovie          : Loading subtitles : http://movie.xyz, with profile: movie
+2025-02-05T12:43:47.732-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-05T12:43:47.735-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/movie-stones'
+2025-02-05T12:43:47.737-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] c.g.s.SpringBootDemoApplication          : Started SpringBootDemoApplication in 0.101 seconds (process running for 40.288)
+2025-02-05T12:43:47.737-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] c.g.s.services.GaunletServiceImpl        : Using all power
+2025-02-05T12:43:47.737-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-02-05T12:43:50.153-06:00  INFO 44210 --- [spring-boot-demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-02-05T12:43:50.154-06:00  INFO 44210 --- [spring-boot-demo] [Thread-19] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-05T12:43:50.156-06:00  INFO 44210 --- [spring-boot-demo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-05T12:43:50.186-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] c.g.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication using Java 23.0.2 with PID 44210 (/Volumes/UGREEN/Developer/web/spring-boot-demo/target/classes started by gabo in /Volumes/UGREEN/Developer/web/spring-boot-demo)
+2025-02-05T12:43:50.187-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] c.g.s.SpringBootDemoApplication          : The following 1 profile is active: "movie"
+2025-02-05T12:43:50.216-06:00  WARN 44210 --- [spring-boot-demo] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: java.lang.IllegalStateException: Error processing condition on com.gabo.spring_boot_demo.services.GaunletServiceImpl
+2025-02-05T12:43:50.218-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-02-05T12:43:50.226-06:00 ERROR 44210 --- [spring-boot-demo] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.IllegalStateException: Error processing condition on com.gabo.spring_boot_demo.services.GaunletServiceImpl
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:60) ~[spring-boot-autoconfigure-3.4.2.jar:3.4.2]
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:99) ~[spring-context-6.2.2.jar:6.2.2]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader$TrackedConditionEvaluator.shouldSkip(ConfigurationClassBeanDefinitionReader.java:491) ~[spring-context-6.2.2.jar:6.2.2]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:132) ~[spring-context-6.2.2.jar:6.2.2]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:121) ~[spring-context-6.2.2.jar:6.2.2]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:430) ~[spring-context-6.2.2.jar:6.2.2]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:290) ~[spring-context-6.2.2.jar:6.2.2]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349) ~[spring-context-6.2.2.jar:6.2.2]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118) ~[spring-context-6.2.2.jar:6.2.2]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:791) ~[spring-context-6.2.2.jar:6.2.2]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:609) ~[spring-context-6.2.2.jar:6.2.2]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.4.2.jar:3.4.2]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.4.2.jar:3.4.2]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.4.2.jar:3.4.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.4.2.jar:3.4.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.4.2.jar:3.4.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.4.2.jar:3.4.2]
+	at com.gabo.spring_boot_demo.SpringBootDemoApplication.main(SpringBootDemoApplication.java:30) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.4.2.jar:3.4.2]
+Caused by: java.lang.IllegalStateException: @ConditionalOnBean did not specify a bean using type, name or annotation
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition$Spec.validate(OnBeanCondition.java:637) ~[spring-boot-autoconfigure-3.4.2.jar:3.4.2]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition$Spec.<init>(OnBeanCondition.java:587) ~[spring-boot-autoconfigure-3.4.2.jar:3.4.2]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchOutcome(OnBeanCondition.java:126) ~[spring-boot-autoconfigure-3.4.2.jar:3.4.2]
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47) ~[spring-boot-autoconfigure-3.4.2.jar:3.4.2]
+	... 20 common frames omitted
+
+2025-02-05T12:43:52.671-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] c.g.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication using Java 23.0.2 with PID 44210 (/Volumes/UGREEN/Developer/web/spring-boot-demo/target/classes started by gabo in /Volumes/UGREEN/Developer/web/spring-boot-demo)
+2025-02-05T12:43:52.672-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] c.g.s.SpringBootDemoApplication          : The following 1 profile is active: "movie"
+2025-02-05T12:43:52.733-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-05T12:43:52.733-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-05T12:43:52.733-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-05T12:43:52.736-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] o.a.c.c.C.[.[localhost].[/movie-stones]  : Initializing Spring embedded WebApplicationContext
+2025-02-05T12:43:52.736-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 63 ms
+2025-02-05T12:43:52.740-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] c.g.s.configs.StoneConfigsMovie          : Loading subtitles : http://movie.xyz, with profile: movie
+2025-02-05T12:43:52.760-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-05T12:43:52.762-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/movie-stones'
+2025-02-05T12:43:52.764-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] c.g.s.SpringBootDemoApplication          : Started SpringBootDemoApplication in 0.108 seconds (process running for 45.315)
+2025-02-05T12:43:52.764-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] c.g.s.services.GaunletServiceImpl        : Using all power
+2025-02-05T12:43:52.764-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-02-05T12:43:54.171-06:00  INFO 44210 --- [spring-boot-demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-02-05T12:43:54.172-06:00  INFO 44210 --- [spring-boot-demo] [Thread-23] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-05T12:43:54.174-06:00  INFO 44210 --- [spring-boot-demo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-05T12:43:54.201-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] c.g.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication using Java 23.0.2 with PID 44210 (/Volumes/UGREEN/Developer/web/spring-boot-demo/target/classes started by gabo in /Volumes/UGREEN/Developer/web/spring-boot-demo)
+2025-02-05T12:43:54.204-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] c.g.s.SpringBootDemoApplication          : The following 1 profile is active: "movie"
+2025-02-05T12:43:54.231-06:00  WARN 44210 --- [spring-boot-demo] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: java.lang.IllegalStateException: Error processing condition on com.gabo.spring_boot_demo.services.GaunletServiceImpl
+2025-02-05T12:43:54.232-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-02-05T12:43:54.232-06:00 ERROR 44210 --- [spring-boot-demo] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.IllegalStateException: Error processing condition on com.gabo.spring_boot_demo.services.GaunletServiceImpl
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:60) ~[spring-boot-autoconfigure-3.4.2.jar:3.4.2]
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:99) ~[spring-context-6.2.2.jar:6.2.2]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader$TrackedConditionEvaluator.shouldSkip(ConfigurationClassBeanDefinitionReader.java:491) ~[spring-context-6.2.2.jar:6.2.2]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:132) ~[spring-context-6.2.2.jar:6.2.2]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:121) ~[spring-context-6.2.2.jar:6.2.2]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:430) ~[spring-context-6.2.2.jar:6.2.2]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:290) ~[spring-context-6.2.2.jar:6.2.2]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349) ~[spring-context-6.2.2.jar:6.2.2]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118) ~[spring-context-6.2.2.jar:6.2.2]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:791) ~[spring-context-6.2.2.jar:6.2.2]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:609) ~[spring-context-6.2.2.jar:6.2.2]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.4.2.jar:3.4.2]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.4.2.jar:3.4.2]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.4.2.jar:3.4.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.4.2.jar:3.4.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.4.2.jar:3.4.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.4.2.jar:3.4.2]
+	at com.gabo.spring_boot_demo.SpringBootDemoApplication.main(SpringBootDemoApplication.java:30) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.4.2.jar:3.4.2]
+Caused by: java.lang.IllegalStateException: @ConditionalOnBean did not specify a bean using type, name or annotation
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition$Spec.validate(OnBeanCondition.java:637) ~[spring-boot-autoconfigure-3.4.2.jar:3.4.2]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition$Spec.<init>(OnBeanCondition.java:587) ~[spring-boot-autoconfigure-3.4.2.jar:3.4.2]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchOutcome(OnBeanCondition.java:126) ~[spring-boot-autoconfigure-3.4.2.jar:3.4.2]
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47) ~[spring-boot-autoconfigure-3.4.2.jar:3.4.2]
+	... 20 common frames omitted
+
+2025-02-05T12:43:59.698-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] c.g.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication using Java 23.0.2 with PID 44210 (/Volumes/UGREEN/Developer/web/spring-boot-demo/target/classes started by gabo in /Volumes/UGREEN/Developer/web/spring-boot-demo)
+2025-02-05T12:43:59.705-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] c.g.s.SpringBootDemoApplication          : The following 1 profile is active: "movie"
+2025-02-05T12:43:59.761-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-05T12:43:59.761-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-05T12:43:59.761-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-05T12:43:59.764-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] o.a.c.c.C.[.[localhost].[/movie-stones]  : Initializing Spring embedded WebApplicationContext
+2025-02-05T12:43:59.764-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 58 ms
+2025-02-05T12:43:59.768-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] c.g.s.configs.StoneConfigsMovie          : Loading subtitles : http://movie.xyz, with profile: movie
+2025-02-05T12:43:59.787-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-05T12:43:59.790-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/movie-stones'
+2025-02-05T12:43:59.792-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] c.g.s.SpringBootDemoApplication          : Started SpringBootDemoApplication in 0.102 seconds (process running for 52.343)
+2025-02-05T12:43:59.792-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] c.g.s.services.GaunletServiceImpl        : Using all power
+2025-02-05T12:43:59.792-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-02-05T12:44:13.315-06:00  INFO 44210 --- [spring-boot-demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-02-05T12:44:13.323-06:00  INFO 44210 --- [spring-boot-demo] [Thread-30] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-05T12:44:13.326-06:00  INFO 44210 --- [spring-boot-demo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-05T12:44:13.363-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] c.g.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication using Java 23.0.2 with PID 44210 (/Volumes/UGREEN/Developer/web/spring-boot-demo/target/classes started by gabo in /Volumes/UGREEN/Developer/web/spring-boot-demo)
+2025-02-05T12:44:13.363-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] c.g.s.SpringBootDemoApplication          : The following 1 profile is active: "movie"
+2025-02-05T12:44:13.421-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-05T12:44:13.422-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-05T12:44:13.422-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-05T12:44:13.424-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] o.a.c.c.C.[.[localhost].[/movie-stones]  : Initializing Spring embedded WebApplicationContext
+2025-02-05T12:44:13.424-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 60 ms
+2025-02-05T12:44:13.430-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] c.g.s.configs.StoneConfigsMovie          : Loading subtitles : http://movie.xyz, with profile: movie
+2025-02-05T12:44:13.450-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-05T12:44:13.455-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/movie-stones'
+2025-02-05T12:44:13.457-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] c.g.s.SpringBootDemoApplication          : Started SpringBootDemoApplication in 0.105 seconds (process running for 66.008)
+2025-02-05T12:44:13.457-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] c.g.s.services.GaunletServiceImpl        : Using all power
+2025-02-05T12:44:13.457-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-02-05T12:44:14.868-06:00  INFO 44210 --- [spring-boot-demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-02-05T12:44:14.869-06:00  INFO 44210 --- [spring-boot-demo] [Thread-37] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-05T12:44:14.870-06:00  INFO 44210 --- [spring-boot-demo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-05T12:44:14.895-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] c.g.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication using Java 23.0.2 with PID 44210 (/Volumes/UGREEN/Developer/web/spring-boot-demo/target/classes started by gabo in /Volumes/UGREEN/Developer/web/spring-boot-demo)
+2025-02-05T12:44:14.898-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] c.g.s.SpringBootDemoApplication          : The following 1 profile is active: "movie"
+2025-02-05T12:44:14.923-06:00  WARN 44210 --- [spring-boot-demo] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: java.lang.IllegalStateException: Error processing condition on com.gabo.spring_boot_demo.services.GaunletServiceImpl
+2025-02-05T12:44:14.924-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-02-05T12:44:14.925-06:00 ERROR 44210 --- [spring-boot-demo] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.IllegalStateException: Error processing condition on com.gabo.spring_boot_demo.services.GaunletServiceImpl
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:60) ~[spring-boot-autoconfigure-3.4.2.jar:3.4.2]
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:99) ~[spring-context-6.2.2.jar:6.2.2]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader$TrackedConditionEvaluator.shouldSkip(ConfigurationClassBeanDefinitionReader.java:491) ~[spring-context-6.2.2.jar:6.2.2]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:132) ~[spring-context-6.2.2.jar:6.2.2]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:121) ~[spring-context-6.2.2.jar:6.2.2]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:430) ~[spring-context-6.2.2.jar:6.2.2]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:290) ~[spring-context-6.2.2.jar:6.2.2]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349) ~[spring-context-6.2.2.jar:6.2.2]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118) ~[spring-context-6.2.2.jar:6.2.2]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:791) ~[spring-context-6.2.2.jar:6.2.2]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:609) ~[spring-context-6.2.2.jar:6.2.2]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.4.2.jar:3.4.2]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.4.2.jar:3.4.2]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.4.2.jar:3.4.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.4.2.jar:3.4.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.4.2.jar:3.4.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.4.2.jar:3.4.2]
+	at com.gabo.spring_boot_demo.SpringBootDemoApplication.main(SpringBootDemoApplication.java:30) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.4.2.jar:3.4.2]
+Caused by: java.lang.IllegalStateException: @ConditionalOnBean did not specify a bean using type, name or annotation
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition$Spec.validate(OnBeanCondition.java:637) ~[spring-boot-autoconfigure-3.4.2.jar:3.4.2]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition$Spec.<init>(OnBeanCondition.java:587) ~[spring-boot-autoconfigure-3.4.2.jar:3.4.2]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchOutcome(OnBeanCondition.java:126) ~[spring-boot-autoconfigure-3.4.2.jar:3.4.2]
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47) ~[spring-boot-autoconfigure-3.4.2.jar:3.4.2]
+	... 20 common frames omitted
+
+2025-02-05T12:44:18.366-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] c.g.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication using Java 23.0.2 with PID 44210 (/Volumes/UGREEN/Developer/web/spring-boot-demo/target/classes started by gabo in /Volumes/UGREEN/Developer/web/spring-boot-demo)
+2025-02-05T12:44:18.370-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] c.g.s.SpringBootDemoApplication          : The following 1 profile is active: "movie"
+2025-02-05T12:44:18.423-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-05T12:44:18.423-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-05T12:44:18.423-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-05T12:44:18.425-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] o.a.c.c.C.[.[localhost].[/movie-stones]  : Initializing Spring embedded WebApplicationContext
+2025-02-05T12:44:18.425-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 54 ms
+2025-02-05T12:44:18.432-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] c.g.s.configs.StoneConfigsMovie          : Loading subtitles : http://movie.xyz, with profile: movie
+2025-02-05T12:44:18.452-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-05T12:44:18.455-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/movie-stones'
+2025-02-05T12:44:18.456-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] c.g.s.SpringBootDemoApplication          : Started SpringBootDemoApplication in 0.098 seconds (process running for 71.008)
+2025-02-05T12:44:18.457-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] c.g.s.services.GaunletServiceImpl        : Using all power
+2025-02-05T12:44:18.457-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-02-05T12:44:22.897-06:00  INFO 44210 --- [spring-boot-demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-02-05T12:44:22.897-06:00  INFO 44210 --- [spring-boot-demo] [Thread-41] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-05T12:44:22.899-06:00  INFO 44210 --- [spring-boot-demo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-05T12:44:22.922-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] c.g.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication using Java 23.0.2 with PID 44210 (/Volumes/UGREEN/Developer/web/spring-boot-demo/target/classes started by gabo in /Volumes/UGREEN/Developer/web/spring-boot-demo)
+2025-02-05T12:44:22.924-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] c.g.s.SpringBootDemoApplication          : The following 1 profile is active: "movie"
+2025-02-05T12:44:22.972-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-05T12:44:22.973-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-05T12:44:22.973-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-05T12:44:22.975-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] o.a.c.c.C.[.[localhost].[/movie-stones]  : Initializing Spring embedded WebApplicationContext
+2025-02-05T12:44:22.975-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 50 ms
+2025-02-05T12:44:22.981-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] c.g.s.configs.StoneConfigsMovie          : Loading subtitles : http://movie.xyz, with profile: movie
+2025-02-05T12:44:22.998-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-05T12:44:23.000-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/movie-stones'
+2025-02-05T12:44:23.002-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] c.g.s.SpringBootDemoApplication          : Started SpringBootDemoApplication in 0.089 seconds (process running for 75.553)
+2025-02-05T12:44:23.002-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] c.g.s.services.GaunletServiceImpl        : Using all power
+2025-02-05T12:44:23.002-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-02-05T12:44:25.421-06:00  INFO 44210 --- [spring-boot-demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-02-05T12:44:25.424-06:00  INFO 44210 --- [spring-boot-demo] [Thread-48] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-05T12:44:25.426-06:00  INFO 44210 --- [spring-boot-demo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-05T12:44:25.465-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] c.g.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication using Java 23.0.2 with PID 44210 (/Volumes/UGREEN/Developer/web/spring-boot-demo/target/classes started by gabo in /Volumes/UGREEN/Developer/web/spring-boot-demo)
+2025-02-05T12:44:25.466-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] c.g.s.SpringBootDemoApplication          : The following 1 profile is active: "movie"
+2025-02-05T12:44:25.522-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-05T12:44:25.522-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-05T12:44:25.523-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-05T12:44:25.524-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] o.a.c.c.C.[.[localhost].[/movie-stones]  : Initializing Spring embedded WebApplicationContext
+2025-02-05T12:44:25.524-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 58 ms
+2025-02-05T12:44:25.530-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] c.g.s.configs.StoneConfigsMovie          : Loading subtitles : http://movie.xyz, with profile: movie
+2025-02-05T12:44:25.547-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-05T12:44:25.550-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/movie-stones'
+2025-02-05T12:44:25.551-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] c.g.s.SpringBootDemoApplication          : Started SpringBootDemoApplication in 0.096 seconds (process running for 78.102)
+2025-02-05T12:44:25.551-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] c.g.s.services.GaunletServiceImpl        : Using all power
+2025-02-05T12:44:25.551-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-02-05T12:44:26.969-06:00  INFO 44210 --- [spring-boot-demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-02-05T12:44:26.970-06:00  INFO 44210 --- [spring-boot-demo] [Thread-52] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-05T12:44:26.972-06:00  INFO 44210 --- [spring-boot-demo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-05T12:44:26.998-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] c.g.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication using Java 23.0.2 with PID 44210 (/Volumes/UGREEN/Developer/web/spring-boot-demo/target/classes started by gabo in /Volumes/UGREEN/Developer/web/spring-boot-demo)
+2025-02-05T12:44:27.002-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] c.g.s.SpringBootDemoApplication          : The following 1 profile is active: "movie"
+2025-02-05T12:44:27.052-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-05T12:44:27.052-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-05T12:44:27.052-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-02-05T12:44:27.054-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] o.a.c.c.C.[.[localhost].[/movie-stones]  : Initializing Spring embedded WebApplicationContext
+2025-02-05T12:44:27.054-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 52 ms
+2025-02-05T12:44:27.060-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] c.g.s.configs.StoneConfigsMovie          : Loading subtitles : http://movie.xyz, with profile: movie
+2025-02-05T12:44:27.076-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-05T12:44:27.079-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/movie-stones'
+2025-02-05T12:44:27.080-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] c.g.s.SpringBootDemoApplication          : Started SpringBootDemoApplication in 0.091 seconds (process running for 79.631)
+2025-02-05T12:44:27.080-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] c.g.s.services.GaunletServiceImpl        : Using all power
+2025-02-05T12:44:27.081-06:00  INFO 44210 --- [spring-boot-demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-02-05T12:44:35.944-06:00  INFO 44210 --- [spring-boot-demo] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-05T12:44:35.947-06:00  INFO 44210 --- [spring-boot-demo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
