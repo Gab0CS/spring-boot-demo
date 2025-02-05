@@ -1,20 +1,22 @@
 package com.gabo.spring_boot_demo.models;
 
 
+import org.springframework.beans.factory.annotation.Value;
+
 import lombok.ToString;
 import lombok.extern.java.Log;
 
-@ToString(callSuper = true)
+@ToString(callSuper = true) 
 @Log
 public class MindStone extends Stone {
 
-    private static final String COLOR = "Yellow";
-    private static final String NAME = "Mind Stone";
-    private static final String LOCATION = "Chitauri Specter";
-    private static final int ENERGY_LEVEL = 20;
-
-    public MindStone() {
-            super(COLOR, NAME, LOCATION, ENERGY_LEVEL);
+    public MindStone(
+        String colorProperty,
+        String nameProperty,
+        String locationProperty,
+        Integer energyLevelProperty
+    ) {
+        super(colorProperty, nameProperty, locationProperty, energyLevelProperty);
     }
     
     @Override

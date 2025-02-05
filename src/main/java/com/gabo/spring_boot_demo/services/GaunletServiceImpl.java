@@ -2,19 +2,17 @@ package com.gabo.spring_boot_demo.services;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
 import com.gabo.spring_boot_demo.models.Stone;
 
 import lombok.Getter;
-import lombok.extern.java.Log;
+import lombok.extern.slf4j.Slf4j;
 
 
 @Service
-@Log
+@Slf4j
 @Getter
-@Component //IoC
 public class GaunletServiceImpl implements GaunletService {
     //DI
     private final Stone mind;
